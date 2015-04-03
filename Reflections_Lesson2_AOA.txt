@@ -23,4 +23,23 @@ Question:
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Answer:
-Possible situations are when adding new (experimental) features while wanting to keep a working main version where, e.g., only bug fixing takes place, or adding other language versions. Branches are useful for such scenarios because they allow to separate them and group the different change histories. 
+Possible situations are when adding new (experimental) features while wanting to keep a working main version where, e.g., only bug fixing takes place, or adding other language versions. Branches are useful for such scenarios because they allow to separate them and group the different change histories.
+
+Question:
+How do the diagrams help you visualize the branch structure?
+
+Answer:
+The tree diagrams help visualize the branch structure by connecting commits by branches and showing you at one glance where the branches were split off.
+
+Question:
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Answer:
+A new commit with the tips of both branches as parents is added which is why we connect it this way in the diagram. The changes are, where possible, merged automatically by git.
+
+Question:
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Answer:
+Pros: don't have to analyze each change, saves time, should work for most minor changes
+Cons: might not always do what you'd have liked, might miss information by not knowing what changes other people introduces, which, in consequence, might introduce bugs
