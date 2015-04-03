@@ -18,3 +18,9 @@ How can you use the staging area to make sure you have one commit per logical ch
 Answer:
 New information on how the staging area works: After committing the staging area has the same state as the last commit. Changes made in the working directory need to be explicitly added to the staging area. This makes it possible to compare both the working directory with the staging area (using git diff) and the staging area with the last commit (using git diff --staged).
 Now, in answer to the question, the staging area helps to commit logical changes rather than all the changes that you've just made because it lets you select which changed files you want to commit. Also, you can see exaclty which changes you will commit by comparing the staging area to the working directory on the one hand and, on the other hand, to the last commit.
+
+Question:
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Answer:
+Possible situations are when adding new (experimental) features while wanting to keep a working main version where, e.g., only bug fixing takes place, or adding other language versions. Branches are useful for such scenarios because they allow to separate them and group the different change histories. 
