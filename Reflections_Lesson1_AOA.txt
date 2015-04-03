@@ -1,0 +1,49 @@
+diff -- command line programm to compare two (text) files
+  options:
+    -u unified diff format -> makes output easier to read
+  assessment:
+    Useful if two versions of a file do not contain too many differences. However, requires the original version to still be available. What if it was overwritten?
+
+Question:
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Answer:
+diff identifies the lines where a change has been made.
+So rather than going through both files and comparing each line, we can quickly identify which lines have been modified.
+
+Question:
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Answer:
+It will be easier to revert to an older version, e.g. if new versions do not work or introduce too many new bugs.
+
+Question:
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Answer:
+Pros of manual commits: commit reflects logical change, easier to identify versions where specific changes have been made
+Cons of manual commits: not foolproof - may forget to commit and thus loose work
+
+Question:
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Answer:
+The different approaches represent the different use cases on which the focus was. In programming, there's often a dependence between several files, so versions of these files need to fit together, too, whereas (normal) documents are usually self-contained.
+
+Question:
+How can you use the commands git log and git diff to view the history of files?
+
+Answer:
+With git log I get an overview of all commits (commit ID, author, date & time, commit message). To compare two commits, I use git diff ID_of_1st_commit ID_of_2nd_commit to compare two commits.
+
+Question:
+How might using version control make you more confident to make changes that could break something?
+
+Answer:
+If a new bug is introduced I can always revert back to the last version that worked fine.
+
+Question:
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Answer:
+For my first programming experiments (yet to be started...).
