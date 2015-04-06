@@ -29,3 +29,10 @@ Answer:
 Probably by sending different versions of files by email or, in the best case, using a shared server directory or online storage.
 Both these options create a lot of confusion as to what has been changed and who is currently working on what since most of the time, you'd pull local copies and update the shared file later. Also, when sending around different versions it is not that easy for several people to work on the same file concurrently and then to consolidate the different changes.
 However, your collaborators and you don't need to have special knowledge on version control. So the initial effort to set up collaboration is very low.
+
+Question:
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Answer:
+You would want to make changes in a separate branch if you want others to review the change before adding it to master.
+If you update the master branch directly, you can see right away when there have been changes in the master branch in the meantime. If you used a separate branch, you would first have to incorporate the changes made in master into your separate branch and then update the separate  branch on GitHub so that automatic merging with the master branch in GitHub is possible.
