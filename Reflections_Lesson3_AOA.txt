@@ -8,4 +8,4 @@ Question:
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Answer:
-You might not want the remote repository to be updated (yet) if you haven't finished what you are working on. Also, there may be changes you don't want to share at all, e.g. if you've tried out something and it didn't work out.
+If, e.g., one of your collaborators pushed changes to the remote repository but you are still working with the old version, you might first want to finish that and only then consolidate with the changes to the remote repository made in the meanwhile.
