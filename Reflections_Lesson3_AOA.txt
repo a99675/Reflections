@@ -9,3 +9,9 @@ Why might you want to always pull changes manually rather than having Git automa
 
 Answer:
 If, e.g., one of your collaborators pushed changes to the remote repository but you are still working with the old version, you might first want to finish that and only then consolidate with the changes to the remote repository made in the meanwhile.
+
+Question:
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Answer:
+Forks are copies of existing repositories to your own account and can be created on GitHub only. Clones are copies of existing repositories. They can also be created locally. Branches are a new group of commits that have a separate change history. Forks are useful if you want to build on other people's work but do not have permission to change their repository. Clones are used  when you collaborate with others or when you work on the same piece on different computers. Branches are a way of grouping separate parts of changes, e.g., when adding an experimental feature.
