@@ -21,3 +21,11 @@ What is the benefit of having a copy of the last known state of the remote store
 
 Answer:
 You can always see (even without internet access) which changes you have introduced since you last synced with the remote. Also, if you don't know that you even to merge remote and local changes, you can compare them first and then decide what to do.
+
+Question:
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Answer:
+Probably by sending different versions of files by email or, in the best case, using a shared server directory or online storage.
+Both these options create a lot of confusion as to what has been changed and who is currently working on what since most of the time, you'd pull local copies and update the shared file later. Also, when sending around different versions it is not that easy for several people to work on the same file concurrently and then to consolidate the different changes.
+However, your collaborators and you don't need to have special knowledge on version control. So the initial effort to set up collaboration is very low.
